@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+nav#projetos li {
+	font-size: 16pt;
+	padding: 5px;
+	margin-left: 40px;
+}
+nav#projetos ul {
+	width: 100%;
+	margin: auto -40px auto -37px;
+
+}
+nav#projetos iframe {
+	width: 100%;
+	height: 460px;
+	margin: 20px auto;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 5px;
+	cursor: pointer;
+}

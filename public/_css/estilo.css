@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+}
+
+div#interface {
+	width: 950px;
+	background-color: white;
+	margin: -5px auto 0px auto;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.7);
+	padding: 10px;
+}
+
+p {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 16pt;
+}
+
+/*-------------------CABECALHO----------------*/
+header#cabecalho {
+	width: 100%;
+	background: url("../_imagens/header.jpg") no-repeat;
+	box-shadow: 0px 0px 60px rgba(51,52,68,.7);
+}
+
+header#cabecalho h1 {
+	font-family: Arial, sans-serif;
+	font-size: 35pt;
+	color: #a6a6a6;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin: auto 10px 0px 20px;
+}
+
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	font-size: 20pt;
+	color: #888888;
+	padding: 0px;
+	margin: 0px 0px 0px 20px;
+}
+
+/*--------------------MENU---------------------*/
+.nav-container {
+	background-color: #cccccc;
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+.f-nav {
+	z-index: 9999;
+	position: fixed;
+	top: -15px;
+	width: 950px;
+	box-shadow: 0px 0px 60px rgba(51,52,60,.7);
+}
+.nav {
+	height: 40px;
+	width: 100%;
+}
+.nav ul {
+	list-style: none;
+	border-top: solid;
+	width: 100%;
+}
+.nav li {
+	font-size: 18pt;
+	font-weight: bold;
+	float: left;
+	padding: 5px;
+	border-bottom: solid;
+	border-width: 2px;
+	text-transform: uppercase;
+}
+.nav ul:first-child {
+	padding-left: 0;
+}
+nav#projetos a {
+	font-family: Arial, sans-serif;
+	font-size: 15pt;
+	color: #606060;
+	margin-left: 43px;
+}
+nav#projetos a:hover {
+	text-decoration: underline;
+}
+
+/*-----------------CONTEUDO DO SITE----------------*/
+
+div#corpo {
+	display: block;
+	width: 900px;
+}
+
+article#principal h2 {
+	font-size: 16pt;
+	color: #606060;
+	background-color: #dddddd;
+	padding: 10px 0px 10px 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+	font-size: 23pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header#cabecalho-artigo h2 {
+	font-size: 15pt;
+	color: #cecece;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+	font-size: 15px;
+	color: #606060
+}
+
+.direita {
+	text-align: right;
+}
+
+/*------------------RODAPE--------------------------*/
+p#footer h4{
+	font-size: 12pt;
+	text-align: center;
+	color: #cccccc
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+a {
+	color: #606060;
+	-webkit-transition:color 0.5s ease-out;
+	-moz-transition:color 0.5s ease-out;
+	-o-transition:color 0.5s ease-out;
+	-ms-transition:color 0.5s ease-out;
+	text-decoration: none;
+}
+a:hover {
+	color: #20205F;
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	opacity:1;
+
+}

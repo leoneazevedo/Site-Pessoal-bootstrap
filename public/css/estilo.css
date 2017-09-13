@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.direita {
+	text-align: right;
+}
+html{
+    font-family: Ubuntu, sans-serif;
+}
+body{
+    font-family: Ubuntu, sans-serif;
+    /*background: url("../_imagens/Lovely-Web-Site-Backgrounds.jpg");
+    background-attachment: fixed;*/
+}
+
+
+
+/*--- Barra de navegação---*/
+.img-logo {
+    border: 2px solid black;
+    height: 55px;
+    width: 55px;
+    display: block;
+    background: url('../_imagens/minhafoto.jpg') no-repeat;
+    /*Imagem escalável .svg*/
+    background-size: cover;
+    /*Define o tamanho da imagem de fundo (contain diz quevai ter o mesmo tamanho definido com o height e width*/
+}
+.navbar-brand {
+	padding: 0px;
+}
+
+nav.navbar-transparente {
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, .8);
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+    font-size: 16pt;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #9bf0e1;
+    background: none;
+}
+/*--- /Barra de navegação---*/
+
+/*--- Cabeçalho---*/
+#cabecalho {
+    margin-top: 80px;
+}
+
+/*--- Conteúdo Lateral ---*/
+aside#lateral {
+    text-align: right;
+}
+aside#lateral h4 {
+    font-size: 18pt;
+}
+aside#lateral li{
+    font-size: 14pt;
+}
+
+p {
+	text-indent: 50px;
+	text-align: justify;
+	font-size: 18pt;
+}
+
+/*--- Rodapé --*/
+#site-footer h4{
+    text-indent: 0px;
+    text-align: center;
+    color: #cccccc;
+    font-size: 12pt;
+}
+#site-footer {
+    padding-bottom: 10px;
+}
+
+/*========Tipografia========*/
+header#cabecalho h1{
+	font-family: Arial, sans-serif;
+	margin-top: 15px;
+}
+
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	font-size: 16pt;
+	color: #888888;
+	padding: 0px;
+	margin: -5px 0px 0px 0px;
+}
+header#cabecalho h3{
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	color: #888888;
+	padding: 0px;
+	margin: 5px 0px 0px 0px;
+}
+header#cabecalho-artigo h1 {
+	font-size: 23pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header#cabecalho-artigo h2 {
+	font-size: 15pt;
+	color: #cecece;
+    padding: 5px;
+}
+
+header#cabecalho-artigo h3 {
+	font-size: 12pt;
+	color: #cecece
+}
