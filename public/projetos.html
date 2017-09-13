@@ -3,107 +3,165 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@leoneeng</title>
-    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
-    <link rel="stylesheet" type="text/css" href="_css/port.css"/>
-    <link rel="stylesheet" type="text/css" href="_css/fotos.css"/>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
-    <script src = "_javascript/menu.js"></script>
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" href="css/fotos.css">
+    <link rel="stylesheet" href="css/port.css">
+    <link type="text/css" href="css/bootstrap/bootstrap-social.css" rel="stylesheet">
+    <link href="css/bootstrap/font-awesome.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <div id="interface">
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapseg" data-toggle="collapse" data-target="#barra-navegacao">
+                        <span class="sr-only">Alternar Menu</span> <!--apenas para leitores de tela-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <a data-toggle="popover" title="Leone Azevedo " data-content="Formado em Engenharia da Computação, gosto de aprender novas tecnologias, linguagens de programação e mundo maker. #Desenvolvimento #Eletrônica #Geek" data-placement="right">
+                    <span class="img-logo img-circle"></span>
+                </a>
 
-      <aside id="lateral">
-        <header id="cabecalho">
-
-            <hgroup>
-                <h1>Humberto Leone</h1>
-                <h2>Engenheiro de Computação</h2>
-            </hgroup>
-
-            <div class="nav-container">
-                <div class="nav">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="formacao.html">Formação</a></li>
-                        <li><a href="projetos.html">Portifólio</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                    <div class="clear"></div>
-                </div>
             </div>
-        </header>
-    </aside>
-    <section id="corpo">
-        <article id="principal">
 
-            <header id="cabecalho-artigo">
+            <div id="barra-navegacao" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="formacao.html">Formação</a></li>
+                    <li><a href="projetos.html">Portifólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /Container-->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <header id="cabecalho" class="col-md-12 page-header">
                 <hgroup>
-                    <h3>&ltGeek/&gt</h3>
                     <h1>Projetos e Experiências</h1>
-                    <h2>por Humberto Leone</h2>
+                    <h2>Leone Azevedo - Eng. da Computação</h2>
                     <h3 class="direita">Atualizado em 27/Julho/2017</h3>
                 </hgroup>
             </header>
-            <nav id="projetos">
-                <ul>
-                    <h2>EXPERIÊNCIAS ACADÊMICAS</h2>
-                    <li><b>Experiência:</b> Trabalho de Conclusão de Curso - (TCC) </li>
-                    <li><b>Título:</b> “FastPark - Um sistema de gerência de vagas em estacionamentos fechados”.</li>
-                    <li><b>Duração (planejamento):</b> 02/2016 a 12/2016</li>
-                    <li><b>Local:</b> Vitória da Conquista - BA, FAINOR</li>
-                    <li><b>Atividade:</b> Criação de um servidor na linguagem de programação JAVA responsável por gerenciar módulos sem fio que verificam a situação das vagas de um estabelecimento, trocando informações sobre o mesmo e auxiliando o condutor a encontrar a vaga disponível com maior praticidade.</li>
-                    <a href="https://issuu.com/biblioteca.fainor/docs/humberto_leone_rodrigues_azevedo" target="_blank">Documentação</a>
+        </div>
+    </div>
 
-                    <iframe src="https://www.youtube.com/embed/0opuhRLRBAM" frameborder="0" allowfullscreen></iframe>
+    <section id="exp-academicas">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-group" style="font-size: 16pt">
+                        <li class="list-group-item active">EXPERIÊNCIAS ACADÊMICAS</li>
+                        <li class="list-group-item"><b>Experiência:</b> Trabalho de Conclusão de Curso - (TCC) </li>
+                        <li class="list-group-item"><b>Título:</b> “FastPark - Um sistema de gerência de vagas em estacionamentos fechados”.</li>
+                        <li class="list-group-item"><b>Duração (planejamento):</b> 02/2016 a 12/2016</li>
+                        <li class="list-group-item"><b>Local:</b> Vitória da Conquista - BA, FAINOR</li>
+                        <li class="list-group-item"><b>Atividade:</b> Criação de um servidor na linguagem de programação JAVA responsável por gerenciar módulos sem fio que verificam a situação das vagas de um estabelecimento, trocando informações sobre o mesmo e auxiliando o condutor a encontrar a vaga disponível com maior praticidade.</li>
+                        <a class="list-group-item list-group-item-action" href="https://issuu.com/biblioteca.fainor/docs/humberto_leone_rodrigues_azevedo" target="_blank">Documentação</a>
 
-                    <li><b>Experiência:</b> Trabalho desenvolvido na disciplina inteligência artificial</li>
-                    <li><b>Título:</b> “Desenvolvimento de um robô micromouse autônomo”</li>
-                    <li><b>Duração (planejamento):</b> 07/2015 a 12/2015</li>
-                    <li><b>Local:</b> Vitória da Conquista - BA, FAINOR</li>
-                    <li><b>Atividade:</b> Desenvolver um robô autônomo que, ao interagir com um ambiente, consegue aprender e tomar decisões com base nas informações recolhidas durante o percurso.</li>
+                        <div class="responsive-video">
 
-                    <ul id="album-fotos">
-                        <li id="foto01"><span>Projetando no Scketchup</span></li>
-                        <li id="foto02"><span>Projetando no Scketchup</span></li>
-                        <li id="foto03"><span>Projeto Concluído</span></li>
+                            <iframe src="https://www.youtube.com/embed/0opuhRLRBAM" frameborder="0" allowfullscreen></iframe>
+
+                        </div>
+
+                        <li class="list-group-item"><b>Experiência:</b> Trabalho desenvolvido na disciplina inteligência artificial</li>
+                        <li class="list-group-item"><b>Título:</b> “Desenvolvimento de um robô micromouse autônomo”</li>
+                        <li class="list-group-item"><b>Duração (planejamento):</b> 07/2015 a 12/2015</li>
+                        <li class="list-group-item"><b>Local:</b> Vitória da Conquista - BA, FAINOR</li>
+                        <li class="list-group-item"><b>Atividade:</b> Desenvolver um robô autônomo que, ao interagir com um ambiente, consegue aprender e tomar decisões com base nas informações recolhidas durante o percurso.</li>
+                        <div class="galeria">
+                            <ul id="album-fotos">
+                                <li id="foto01"><span>Projetando no Scketchup</span></li>
+                                <li id="foto02"><span>Projetando no Scketchup</span></li>
+                                <li id="foto03"><span>Projeto Concluído</span></li>
+                            </ul>
+                        </div>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="exp-profissionais">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav>
+                        <ul class="list-group" style="font-size: 16pt">
+                            <li class="list-group-item active">EXPERIÊNCIAS PROFISSIONAIS</li>
+                            <li class="list-group-item"><b>Empresa:</b> UESB;</li>
+                            <li class="list-group-item"><b>Duração:</b> 02/2016 a 12/2016</li>
+                            <li class="list-group-item"><b>Local:</b> Vitória da Conquista - BA</li>
+                            <li class="list-group-item"><b>Desenvolvedor de sistema embarcado:</b> Criação de uma plataforma capaz de capturar o peso e altura do indivíduo e, após a coleta dos dados, calcular o IMC (índice de massa corporal), exibir a situação do indivíduo quanto ao peso (abaixo, normal, ou acima do peso ideal), além do peso que o usuário deve alcançar.</li>
+                            <a class="list-group-item" href="https://www.dropbox.com/s/9t56ze29rlc8lzi/Est%C3%A1gio%20II%20-%20Atividade%20III.pdf?dl=0" target="_blank">Documentação</a>
+                            <div class="galeria">
+                                <ul id="album-fotos">
+                                    <li id="foto04"><span>Hackeando a Balança</span></li>
+                                    <li id="foto05"><span>Testes iniciais</span></li>
+                                    <li id="foto06"><span>Projeto Concluído</span></li>
+                                </ul>
+                            </div>
+                            <li class="list-group-item"><b>Empresa:</b> Autônomo</li>
+                            <li class="list-group-item"><b>Duração:</b> 12/2017 a 02/2017</li>
+                            <li class="list-group-item"><b>Local:</b> Abaíra - BA</li>
+                            <li class="list-group-item"><b>Desenvolvedor Java:</b> Criação de um sistema de controle de medicamentos em uma farmácia.</li>
 
-                    <h2>EXPERIÊNCIAS PROFISSIONAIS</h2>
-                    <li><b>Empresa:</b> UESB;</li>
-                    <li><b>Duração:</b> 02/2016 a 12/2016</li>
-                    <li><b>Local:</b> Vitória da Conquista - BA</li>
-                    <li><b>Desenvolvedor de sistema embarcado:</b> Criação de uma plataforma capaz de capturar o peso e altura do indivíduo e, após a coleta dos dados, calcular o IMC (índice de massa corporal), exibir a situação do indivíduo quanto ao peso (abaixo, normal, ou acima do peso ideal), além do peso que o usuário deve alcançar.</li>
-                    <a href="https://www.dropbox.com/s/9t56ze29rlc8lzi/Est%C3%A1gio%20II%20-%20Atividade%20III.pdf?dl=0" target="_blank">Documentação</a>
-
-
-                    <ul id="album-fotos">
-                        <li id="foto04"><span>Hackeando a Balança</span></li>
-                        <li id="foto05"><span>Testes iniciais</span></li>
-                        <li id="foto06"><span>Projeto Concluído</span></li>
+                            <div class="responsive-video">
+                                <iframe src="https://www.youtube.com/embed/3ZTeKMPnxa8" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="extra">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-group" style="font-size: 16pt;">
+                        <li class="list-group-item active">Hobbies</li>
                     </ul>
-
-                    <li><b>Empresa:</b> Autônomo</li>
-                    <li><b>Duração:</b> 12/2017 a 02/2017</li>
-                    <li><b>Local:</b> Abaíra - BA</li>
-                    <li><b>Desenvolvedor Java:</b> Criação de um sistema de controle de medicamentos em uma farmácia.</li>
-
-                    <iframe src="https://www.youtube.com/embed/3ZTeKMPnxa8" frameborder="0" allowfullscreen="" ></iframe>
-                </ul>
-            </nav>
-
-        </article>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer id="rodape">
-        <p>
-            Copyright &copy; 2017 - by Leone Azevedo <br/>
-            <a href="http://facebook.com/leoneeng" target="_blank">Facebook</a> |
-            <a href="http://instagram.com/leoneazvdo" target="_blank"> Instagram</a>
-        </p>
+    <footer id="site-footer" style="background-color: #101010;">
+        <div class="container">
+            <div class="col-md-12 social-buttons">
+                <h4>Copyright &copy; 2017 - by Leone Azevedo</h4>
+                <div class="text-center">
+                    <a href="http://instagram.com/leoneazvdo" class="btn btn-social-icon btn-instagram" target="blank">
+                        <span class="fa fa-instagram"></span>
+                    </a>
+                    <a href="http://linkedin.com.br" class="btn btn-social-icon btn-linkedin" target="blank">
+                        <span class="fa fa-linkedin"></span>
+                    </a>
+                    <a href="http://github.com/leoneazevedo" class="btn btn-social-icon btn-github" target="blank">
+                        <span class="fa fa-github"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
-</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
