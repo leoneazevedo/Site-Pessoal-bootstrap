@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-ul#album-fotos {        
+ul#album-fotos {
+    padding: 40px;
     overflow: hidden;
     list-style: none;    
 }

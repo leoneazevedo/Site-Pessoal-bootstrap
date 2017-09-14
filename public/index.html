@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@leoneeng</title>
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <link type="text/css" href="css/bootstrap/bootstrap-social.css" rel="stylesheet">
-    <link href="css/bootstrap/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-social.css">
+    <link rel="stylesheet" href="css/bootstrap/font-awesome.css" >    
 
 
 </head>
@@ -56,18 +56,52 @@
     <section id="conteudos">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8 col-md-offset-2">
                     <header id="cabecalho-artigo">
                         <h1>A Engenharia de Computação</h1>
                         <h2>by Leone Azevedo</h2>
                         <h3 class="direita">Atualizado em <time datetime="27/07/2017">27/07/2017</time></h3>
                     </header>
-                    <p>O profissional dessa área pode projetar e construir computadores com os sistemas de <span style="font-weight: bolder;"> hardware</span> e de <span style="font-weight: bold;"> software</span> ou planejar e programar redes de computadores e seus componentes, como roteadores e cabeamentos. Além disso, é responsável por produzir novas máquinas e equipamentos computacionais para serem utilizados em diversos setores – de acordo com as necessidades do mercado. Outra importante área de atuação é como projetista, por exemplo, de robôs, de equipamentos de informática e de sistemas de computação em aeronave.</p>
+                    <p>O profissional dessa área pode pro&shy;jetar e cons&shy;truir compu&shy;tado&shy;res com os sis&shy;temas de <span style="font-weight: bolder;"> hardware</span> e de <span style="font-weight: bold;"> software</span> ou planejar e pro&shy;gra&shy;mar redes de com&shy;puta&shy;dores e seus com&shy;ponen&shy;tes, como rote&shy;ado&shy;res e cabea&shy;mentos. Além disso, é respon&shy;sável por pro&shy;duzir novas máqui&shy;nas e equi&shy;pamentos com&shy;puta&shy;cionais para serem utili&shy;zados em diver&shy;sos setores – de acor&shy;do com as neces&shy;sidades do mer&shy;cado. Outra impor&shy;tante área de atuação é como pro&shy;jetista, por exemplo, de robôs, de equi&shy;pamen&shy;tos de infor&shy;máti&shy;ca e de sis&shy;temas de compu&shy;tação em aero&shy;nave.</p>
 
-                    <p>De acordo com o professor de Engenharia da Computação da Universidade de Taubaté (UNITAU), Prof. Dawilmar Araújo, a demanda por esses profissionais vêm crescendo devido à constante expansão da tecnologia. No Vale do Paraíba, muitas empresas procuram este profissional para desenvolver softwares que auxiliam no andamento das atividades e das operação de equipamentos automotivos e de aeronaves. ”Há bastante oportunidade de trabalho para essa área, principalmente nos grandes centros”, ressaltou o professor.</p>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="_imagens/image1.jpg" alt="Los Angeles">
+                            </div>
+
+                            <div class="item">
+                                <img src="_imagens/image2.jpg" alt="Chicago">
+                            </div>
+
+                            <div class="item">
+                                <img src="_imagens/image3.jpg" alt="New York">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon"></span>
+                            <span class="sr-only">Próxima</span>
+                        </a>
+                    </div>
 
                 </div>
-                <div class="col-md-4">
+
+
+                <!--<div class="col-md-4">
                     <aside id="lateral">
                         <h4><b>Tutoriais no Blog (em breve)</b></h4>
                         <ul class="nav">
@@ -81,7 +115,7 @@
                             <li><a href="#">Automação Industrial</a></li>
                         </ul>
                     </aside>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
